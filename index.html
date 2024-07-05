@@ -6,6 +6,7 @@
     <title>The 5</title>
     <link rel="icon" href="./assests/img/icon.jpg" type="image/x-icon" />
     <link rel="stylesheet" href="./assests/css/style.css">
+    <link rel="stylesheet" href="./assests/css/responsive.css">
     <link rel="stylesheet" href="./assests/fonts/themify-icons/themify-icons.css">
 </head>
 <body>
@@ -18,7 +19,7 @@
                 <li><a href="#tour">Tour</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li>
-                    <a href="">
+                    <a href="#">
                         More
                         <i class="nav-arrow-down ti-angle-down"></i>
                     </a>
@@ -31,11 +32,17 @@
             </ul>
             <!-- End: Nav -->
             
-            <!-- Begin: Search button -->
+            <!-- Mobile menu button -->
+            <div id="mobile-menu" class="mobile-menu-btn">
+                <i class="menu-icon ti-menu"></i>
+            </div>
+
+            <!-- Search button -->
             <div class="search-btn">
                 <i class="search-icon ti-search"></i>
             </div>
-            <!-- End: Search button -->
+
+            
         </div>
 
   
@@ -56,17 +63,17 @@
                     We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
                 <div class="row member-list">
-                    <div class="col third-col text-center">
+                    <div class="col third-col s-full-col mt-32 text-center">
                     <p class="member-name">Khai</p>
                         <img src="./assests/img/team/khai.jpg" alt="Khai" class="member-img">
                     </div>
 
-                    <div class="col third-col text-center">
+                    <div class="col third-col s-full-col mt-32 text-center">
                         <p class="member-name">Thinh</p>
                         <img src="./assests/img/team/thinh.jpg" alt="Thinh" class="member-img">
                     </div>
 
-                    <div class="col third-col text-center">
+                    <div class="col third-col s-full-col mt-32 text-center">
                         <p class="member-name">Tung</p>
                         <img src="./assests/img/team/tung.jpg" alt="Tung" class="member-img">
                     </div>
@@ -89,31 +96,31 @@
 
                     <!-- Places -->
                      <div class="row place-list">
-                         <div class="col third-col">
+                         <div class="col third-col s-full-col mt-16">
                          <img src="./assests/img/places/hanoi.jpg" alt="Ha Noi" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">Ha Noi</h3>
                                 <p class="place-time">Fri 27 Nov 2016</p>
                                 <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button class="place-buy-btn js-buy-ticket">Buy Tickets</button>
+                                <button class="s-full-width place-buy-btn js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
-                        <div class="col third-col">
+                        <div class="col third-col s-full-col mt-16">
                             <img src="./assests/img/places/saigon.jpg" alt="Ha Noi" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">Sai Gon</h3>
                                 <p class="place-time">Fri 27 Nov 2016</p>
                                 <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button class="place-buy-btn js-buy-ticket">Buy Tickets</button>
+                                <button class="s-full-width place-buy-btn js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
-                        <div class="col third-col">
+                        <div class="col third-col s-full-col mt-16">
                             <img src="./assests/img/places/danang.jpg" alt="Da Nang" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">Da Nang</h3>
                                 <p class="place-time">Fri 27 Nov 2016</p>
                                 <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button class="place-buy-btn js-buy-ticket">Buy Tickets</button>
+                                <button class="s-full-width place-buy-btn js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
                         <div class="clear"></div>
@@ -127,18 +134,18 @@
                 <p class="section-sub-heading">Fan? Drop a note!</p>
                 
                 <div class="row contact-content">
-                    <div class="col half-col contact-info">
+                    <div class="col half-col s-full-col contact-info">
                         <p><i class="ti-location-pin"></i>Ho Chi Minh, VN</p>
                         <p><i class="ti-mobile"></i>Phone: 123456789</p>
-                        <p><i class="ti-email"></i>Email: thinhtran.31231022460@st.ueh.edu.vn</p>
+                        <p><i class="ti-email"></i>Email: <a href="mailto:thinhtran.31231022460@st.ueh.edu.vn">thinhtran.31231022460@st.ueh.edu.vn</a></p>
                     </div>
-                    <div class="col half-col contact-form">
+                    <div class="col half-col s-full-col contact-form">
                         <form action="">
                             <div class="row">
-                                <div class="col half-col">
+                                <div class="col half-col s-full-col">
                                     <input type="text" name="" placeholder="Name" required id="" class="form-control">
                                 </div>
-                                <div class="col half-col">
+                                <div class="col half-col s-full-col s-mt-8">
                                     <input type="email" name="" placeholder="Email" required id="" class="form-control">
                                 </div>
                             </div>
@@ -147,7 +154,7 @@
                                     <input type="Text" name="" placeholder="Message" required id="" class="form-control">
                                 </div>
                             </div>
-                            <input class="form-submit-btn mt-16" type="submit" value="SEND">
+                            <input class="form-submit-btn mt-16 s-full-width" type="submit" value="SEND">
                         </form>
                     </div>
                 </div>
@@ -235,6 +242,40 @@
             event.stopPropagation()
         })
 
+    </script>
+
+    <script>
+        var header = document.getElementById('header');
+        var mobileMenu = document.getElementById('mobile-menu');
+        var headerHeight = header.clientHeight;
+        
+        // Close/Open moblie menu
+        mobileMenu.onclick = function() {
+            var isClosed = header.clientHeight === headerHeight;
+            if(isClosed) {
+                header.style.height = 'auto';
+            }
+
+            else {
+                header.style.height = null;
+            }
+        }
+
+        // Auto close when click any option in menu
+        var menuItems = document.querySelectorAll('#nav li a[href *= "#"]')
+        for (var i  = 0; i < menuItems.length; i++) {
+            var menuItem = menuItems[i];
+
+            menuItem.onclick = function(event) {         
+                var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav') 
+                if (isParentMenu) {
+                    event.preventDefault();  
+                }
+                else {
+                    header.style.height = null; 
+                }
+            }
+        }
     </script>
 </body>
 </html>
